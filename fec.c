@@ -1,5 +1,6 @@
 #include<stdio.h>
-int main(){
+void fec()
+{
   int i,f=1,num;
  
   printf("Enter a number: ");
@@ -9,5 +10,5 @@ int main(){
       f=f*i;
  
   printf("Factorial of %d is: %d",num,f);
-  return 0;
+ 
 }
